@@ -1,47 +1,63 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    background-color: #eee;
-    margin-bottom: 1%;
-    padding: 2%;
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
 .box {
-    width: 10%;
-    aspect-ratio: 1/1;
-    padding: 1%;
-    margin: 0.3%;
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
+  position: absolute;
 }
 
 #container {
-    position: relative;
-    border: 3px red dashed;
-    width: 100%;
-    aspect-ratio: 10/9;
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
 }
 
 /* SKRIV KUN KODE HERUNDER */
 
 .redBox {
-    background-color: #ff1d00;
+  background-color: #ff1d00;
+  z-index: 1;
+  rotate: 45deg;
+  scale: 1.5;
+  translate: 200% 100%;
 }
 
 .yellowBox {
-    background-color: #ffeb00;
+  background-color: #ffeb00;
+  translate: 200% 249%;
+  z-index: 2;
+  scale: 2.12 3;
 }
 
 .pinkBox {
-    background-color: #ff9ecf;
+  background-color: #ff9ecf;
+  scale: 0.5 1;
+  translate: 270% 50%;
 }
 
 .greenBox {
-    background-color: #1fd81f;
+  background-color: #1fd81f;
+  z-index: 3;
+  scale: 0.7;
+  translate: 250% 298.3%;
 }
 
 .blueBox {
-    background-color: #0180fc;
+  background-color: #0180fc;
+  z-index: 4;
+  scale: 0.7 1.35;
+  translate: 150% 331%;
 }
